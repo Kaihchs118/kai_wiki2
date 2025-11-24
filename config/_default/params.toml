@@ -1,6 +1,56 @@
+# -- Theme Options --
+
+colorScheme = "monokai"
+defaultAppearance = "dark"
+autoSwitchAppearance = true
+
+enableA11y = false
+enableSearch = true
+enableCodeCopy = true
+replyByEmail = true
+
+disableImageOptimization = false
+disableImageOptimizationMD = false
+disableTextInHeader = false
+hotlinkFeatureImage = false
+
+highlightCurrentMenuArea = true
+smartTOC = true
+smartTOCHideUnfocusedChildren = true
+
+fingerprintAlgorithm = "sha512"
+
+giteaDefaultServer = "https://git.fsfe.org"
+forgejoDefaultServer = "https://v11.next.forgejo.org"
+
+[header]
+  layout = "basic"
+
+[footer]
+  showMenu = true
+  showCopyright = false
+  showThemeAttribution = true
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+  showPoweredBy = true
+
+# --------- HOMEPAGE (保留你的 hero + 顯示文章) ----------
+[homepage]
+  layout = "hero"
+  homepageImage = "BG.jpg"
+  showRecent = true
+  showRecentItems = 100
+  showMoreLink = false
+  showMoreLinkDest = "/posts/"
+  cardView = true
+  cardViewScreenWidth = false
+  layoutBackgroundBlur = false
+  disableHeroImageFilter = false
+
+# --------- ARTICLE (修正 TOC + 修 hero 衝突) ----------
 [article]
   showDate = true
-  showTableOfContents = true
+  showTableOfContents = true     # 正確 TOC
   tocOpen = true
   showViews = false
   showLikes = false
@@ -8,7 +58,10 @@
   showDateUpdated = true
   showAuthor = false
   showAuthorBottom = false
-  showHero = false
+  
+  # 修正首頁不顯示文章的關鍵：
+  showHero = true  # ← 必須 true，不會影響文章排版，只是避免 hero layout 崩壞
+
   layoutBackgroundBlur = true
   layoutBackgroundHeaderSpace = true
   showBreadcrumbs = true
@@ -20,9 +73,78 @@
   showPagination = true
   invertPagination = false
   showReadingTime = true
-  # （這裡本來有一個 showTableOfContents = false，記得刪掉！）
+
+  # ⭐ 移除衝突的第二個 TOC（原本的 false 會覆蓋）
+  # showTableOfContents = false   ← 已移除
+
   showTaxonomies = false
   showCategoryOnly = false
   showAuthorsBadges = false
   showWordCount = false
   showZenMode = false
+
+# --------- LIST ---------
+[list]
+  showHero = true
+  layoutBackgroundBlur = true
+  layoutBackgroundHeaderSpace = true
+  showBreadcrumbs = false
+  showSummary = false
+  showViews = false
+  showLikes = false
+  showTableOfContents = false
+  showCards = false
+  orderByWeight = false
+  groupByYear = true
+  cardView = false
+  cardViewScreenWidth = false
+  constrainItemsWidth = false
+
+# --------- SITEMAP ---------
+[sitemap]
+  excludedKinds = ["taxonomy", "term"]
+
+# --------- TAXONOMY ---------
+[taxonomy]
+  showTermCount = true
+  showHero = false
+  showBreadcrumbs = false
+  showViews = false
+  showLikes = false
+  showTableOfContents = true
+  cardView = false
+
+[term]
+  showHero = false
+  showBreadcrumbs = false
+  showViews = false
+  showLikes = false
+  showTableOfContents = true
+  groupByYear = false
+  cardView = false
+  cardViewScreenWidth = false
+
+[firebase]
+  # apiKey = ""
+  # ...
+
+[fathomAnalytics]
+  # site = ""
+
+[umamiAnalytics]
+  # websiteid = ""
+
+[selineAnalytics]
+  # token = ""
+
+[buymeacoffee]
+  # identifier = ""
+
+[verification]
+  # google = ""
+
+[rssnext]
+  # feedId = ""
+
+[advertisement]
+  # adsense = ""
