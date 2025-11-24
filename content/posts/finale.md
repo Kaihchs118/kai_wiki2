@@ -72,7 +72,7 @@ Finale 的退場，讓我們更清晰地看見了當今記譜軟體的市場分�
 ## 我們該怎麼辦？🤔
 在這邊我非常推薦你去看看 ```好和弦(NiceChords+)```的影片
 ``` md
-https://wiwi.video/search?q=finale
+https://wiwi.video/w/atxUShe9B4UvELTwGYKStu
 ```
 裡面的建議相當好，我自己原本是用 Kontakt 音源
 但是或許就跟影片中說得一樣，隨時這間公司不開發了...
