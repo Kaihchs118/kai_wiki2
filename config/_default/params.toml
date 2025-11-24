@@ -81,7 +81,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showCategoryOnly = false
   showAuthorsBadges = false
   showWordCount = false
-  showZenMode = false
+  showZenMode = true
 
 # --------- LIST ---------
 [list]
