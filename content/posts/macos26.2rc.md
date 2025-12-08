@@ -16,7 +16,8 @@ Apple 最近釋出 macOS 26.2（Tahoe）版本，雖然不像大版本那樣全�
 
 {{< figure src="https://9to5mac.com/wp-content/uploads/sites/6/2025/11/image.png" alt="macOS Tahoe Edge Light 功能示意" >}}
 
-macOS 26.2 引入了 Edge Light 功能 — 當你使用 Mac 進行視訊通話（例如 FaceTime、Zoom、Teams 等）時，如果環境光線不足，Mac 螢幕邊緣會亮起一圈光帶，模擬像「環形燈 (ring light)」的補光效果，讓你的臉在鏡頭前看起來更清晰、不會太暗。
+
+> macOS 26.2 引入了 Edge Light 功能 — 當你使用 Mac 進行視訊通話（例如 FaceTime、Zoom、Teams 等）時，如果環境光線不足，Mac 螢幕邊緣會亮起一圈光帶，模擬像「環形燈 (ring light)」的補光效果，讓你的臉在鏡頭前看起來更清晰、不會太暗。
 這對於常開視訊會議、直播、線上上課、影片拍攝的人來說，是很實用的一項更新。
 ---
 

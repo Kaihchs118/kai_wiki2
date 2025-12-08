@@ -5,8 +5,6 @@ Layout : "default"
 draft: false
 tags: ["Finale", "打譜軟體", "Dorico", "MuseScore", "科技音樂"]
 comments: true
-cover:
-    image: "https://thf.bing.com/th/id/OIP.DGgujOomSM-5fREFNm2-_QHaF7?w=258&h=206&c=7&r=0&o=5&cb=thfc1&dpr=2&pid=1.7 "
 ---
 
 ## 一個時代的終結：為什麽 Finale 選擇了下台一鞠躬？
