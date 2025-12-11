@@ -5,6 +5,7 @@ Layout : "default"
 tags: ["跨界鋼琴大師" , "譜"]
 draft: false
 comments: true
+slug:"listpdf" 
 ---
 # 12/09 張育瑞大師來
 新竹高中能請到這樣子這麼帥的一位大師
