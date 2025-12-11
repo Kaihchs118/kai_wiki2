@@ -1,4 +1,4 @@
----
+ㄅ---
 title: "張育瑞大師 feat. 鋼琴譜"
 date: 2025-12-11T08:00:00+08:00
 Layout : "default"
@@ -16,4 +16,6 @@ id : "listpdf"
 ---
 # 下載大師版鋼琴譜
 
-{{< button href="https://drive.google.com/file/d/1OG9I36UN8wwpyRExEo7EowANOf3c0LRA/view?usp=sharing" target="_blank" >}} 下載鋼琴譜 {{< /button >}}
+{{< button class="success large" icon="lightbulb" target="_blank" href="https://drive.google.com/file/d/1OG9I36UN8wwpyRExEo7EowANOf3c0LRA/view?usp=sharing" >}}
+查看 PDF
+{{< /button >}}
