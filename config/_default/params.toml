@@ -36,7 +36,6 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 
 
 [firebase]
-[firebase]
   enabled = true
   analytics = false
   firestore = true
