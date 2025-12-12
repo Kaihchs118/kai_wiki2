@@ -34,6 +34,20 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showScrollToTop = true
   showPoweredBy = true
 
+
+[firebase]
+  enabled = true
+  analytics = false
+  firestore = true
+  apiKey = "AIzaSyB3yMx0BCbL94QBHyZIznwNyVEjav1wdVo"
+  authDomain = "hugo-kaiwiki2.firebaseapp.com"
+  projectId = "hugo-kaiwiki2"
+  storageBucket = "hugo-kaiwiki2.firebasestorage.app"
+  messagingSenderId = "291284400474"
+  appId = "1:291284400474:web:441cd888267e3ece481b63"
+  measurementId = "G-CR6Y1V6GDY"
+
+
 # --------- HOMEPAGE (保留你的 hero + 顯示文章) ----------
 [homepage]
   layout = "hero"
@@ -123,15 +137,6 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   groupByYear = false
   cardView = false
   cardViewScreenWidth = false
-
-[firebase]
-  apiKey = "AIzaSyB3yMx0BCbL94QBHyZIznwNyVEjav1wdVo"
-  authDomain = "hugo-kaiwiki2.firebaseapp.com"
-  projectId = "hugo-kaiwiki2"
-  storageBucket = "hugo-kaiwiki2.firebasestorage.app"
-  messagingSenderId = "291284400474"
-  appId = "1:291284400474:web:441cd888267e3ece481b63"
-  measurementId = "G-CR6Y1V6GDY"
 
 
 [fathomAnalytics]
